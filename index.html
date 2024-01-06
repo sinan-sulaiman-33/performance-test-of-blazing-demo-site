@@ -1,0 +1,30 @@
+{
+    "id": "1704573767259",
+    "status": "PendingCapture",
+    "amount": "555",
+    "currency": "USD",
+    "authCode": "888888",
+    "payment": {
+        "cardNumber": "xxxxxxxxxxxx1111",
+        "cardExpirationMonth": "11",
+        "cardExpirationYear": "2018"
+    },
+    "_links": {
+        "self": {
+            "href": "https=>\/\/sandbox.api.visa.com\/cybersource\/payments\/v1\/authorizations\/1704573767259",
+            "method": "GET"
+        },
+        "capture": [
+            {
+                "href": "https=>\/\/sandbox.api.visa.com\/cybersource\/payments\/v1\/authorizations\/1704573767259\/captures",
+                "method": "POST"
+            }
+        ],
+        "reversal": [
+            {
+                "href": "https=>\/\/sandbox.api.visa.com\/cybersource\/payments\/v1\/authorizations\/1704573767259\/reversals",
+                "method": "POST"
+            }
+        ]
+    }
+}
